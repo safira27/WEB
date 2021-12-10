@@ -1,0 +1,120 @@
+$mycolor: pink;
+$colorku: black;
+$about: white;
+$warnasekunder: crimson;
+$font: arial;
+$warna:grey;
+header{
+    background: $colorku;
+    background-color: $warnasekunder;
+    width: 50%;
+    text-align: right;
+    .logo{
+        font-size: 23px;
+        font-family: $font;
+        float: left;
+        padding: 10px 10px;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block; 
+            a{
+                display:block;
+                padding: 10px 10px;
+                float: right;
+                text-decoration: none;
+                color: $colorku;
+            }
+            a:hover{
+                background-color: $colorku;
+                color: $mycolor;
+            }
+        }
+    
+    }
+}
+
+.banner{
+    background-color: $mycolor;
+    width: 50%;
+    padding: 0px;
+    margin: 1px;
+    h1{
+        font-size: 2rem;
+        font-family: font;
+        background-color: $mycolor;
+        text-align: center;
+        h2{
+        text-align: center;
+        font-family: $font;
+        margin-top: auto;
+        font-size:12px;
+        padding: 10px 10px;
+        }
+    }
+    span{
+        font-size: small;
+        color:$warna;
+    }
+}
+
+.sidebar{
+	background:$mycolor;
+	float: left;	
+	width: 30%;
+	height: 200px;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: $about;
+    line-height: 16px;
+    font-family: $font;
+
+    span{
+        font-size: small;
+        color: $warna;
+    } 
+
+    
+}    .content{
+        background:$mycolor;
+        float: right;
+        height: 200px;
+        width: 20%;
+        margin-right:  670px;
+        margin-right: $about;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        font-family: $font;
+        
+    }   
+.sidebar li{
+    font-size: 23px;
+}
+/*akhir sidebar*/
+
+.fixed_footer{
+    width: 80%;
+    height: 8px 10px;
+    position: fixed; left: 0; bottom: 0;
+    z-index: -100;
+}
+    .fixed_footer p{
+    color:$about;
+    column-count: 3;
+    column-gap: 1px;
+    font-size: 1em;
+    font-weight: 300;
+    background-color: $warnasekunder;
+    width: 62%;
+    margin: 10px;
+    height: 250px;
+    line-height: 20px;
+    text-align: center;
+    padding: 5px 3px;
+    }
+
+

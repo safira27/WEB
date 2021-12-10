@@ -1,0 +1,125 @@
+header {
+  background: black;
+  background-color: crimson;
+  width: 50%;
+  text-align: right;
+}
+
+header .logo {
+  font-size: 23px;
+  font-family: arial;
+  float: left;
+  padding: 10px 10px;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+}
+
+header ul li a {
+  display: block;
+  padding: 10px 10px;
+  float: right;
+  text-decoration: none;
+  color: black;
+}
+
+header ul li a:hover {
+  background-color: black;
+  color: pink;
+}
+
+.banner {
+  background-color: pink;
+  width: 50%;
+  padding: 0px;
+  margin: 1px;
+}
+
+.banner h1 {
+  font-size: 2rem;
+  font-family: font;
+  background-color: pink;
+  text-align: center;
+}
+
+.banner h1 h2 {
+  text-align: center;
+  font-family: arial;
+  margin-top: auto;
+  font-size: 12px;
+  padding: 10px 10px;
+}
+
+.banner span {
+  font-size: small;
+  color: grey;
+}
+
+.sidebar {
+  background: pink;
+  float: left;
+  width: 30%;
+  height: 200px;
+  font-style: normal;
+  font-size: 18px;
+  margin-left: white;
+  line-height: 16px;
+  font-family: arial;
+}
+
+.sidebar span {
+  font-size: small;
+  color: grey;
+}
+
+.content {
+  background: pink;
+  float: right;
+  height: 200px;
+  width: 20%;
+  margin-right: 670px;
+  margin-right: white;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+  font-family: arial;
+}
+
+.sidebar li {
+  font-size: 23px;
+}
+
+/*akhir sidebar*/
+.fixed_footer {
+  width: 80%;
+  height: 8px 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: -100;
+}
+
+.fixed_footer p {
+  color: white;
+  -webkit-column-count: 3;
+          column-count: 3;
+  -webkit-column-gap: 1px;
+          column-gap: 1px;
+  font-size: 1em;
+  font-weight: 300;
+  background-color: crimson;
+  width: 62%;
+  margin: 10px;
+  height: 250px;
+  line-height: 20px;
+  text-align: center;
+  padding: 5px 3px;
+}
+/*# sourceMappingURL=main.css.map */
